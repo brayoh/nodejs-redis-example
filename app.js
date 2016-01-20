@@ -17,7 +17,7 @@ client.get('brian',function(err, reply){
 	console.log(reply);
 });
 
-//storing a hash - equal to row in RDMBS and documents in NoSQL
+//storing a hash - equal to row in MySQL and documents in NoSQL
 client.hmset('frameworks', {
    'javascript': 'AngularJS',
           'css': 'Bootstrap',
